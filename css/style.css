@@ -1,0 +1,42 @@
+body {
+	background-color: #213b50;
+	color: white;
+	font-weight:600;
+	
+}
+
+input#firstname{
+	background-color: #2b4a64;
+	border: 0px;
+	color: white;
+}
+
+input:focus#firstname {
+	background-color: #4e708c;
+	border: 2px solid #ffffff;
+}
+
+
+input:active#firstname {
+	background-color:  #4e708c;
+}
+
+
+input#lastname {
+	background-color: #2b4a64;
+	border: 0px;
+	color: white;
+}
+input:focus#lastname {
+	background-color: #4e708c;
+	border: 2px solid #ffffff;
+}
+
+input#send {
+	background-color: #1b5;
+	color: white;
+	font-weight:800;
+	border: 0px;
+	padding: 7px;
+	margin-top: 15px;
+}

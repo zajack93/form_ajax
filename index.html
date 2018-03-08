@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Czytanie danych z formularza</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"></style>
+
+</head>
+ 
+<body>
+	<form action="POST">
+	 	<label for="firstname">Podaj swoje imię</label><br />
+		<input type="text" id="firstname" name="firstname" /><br />
+		<label for="lastname">Podaj swoje nazwisko</label><br />
+		<input type="text" id="lastname" name="lastname" /><br />
+		<input type="button" id="send" value="Wyslij" />
+	</form>
+
+	<div id="return"></div>
+
+
+<!--	script jquery-->
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous"> 	
+	</script>
+<!-- Walidation script -->
+	<script type="text/javascript" src="js/main.js"></script>
+<!-- Custom Script	-->
+	<script type="text/javascript" src="js/skrypt.js"></script>
+
+</body>
+</html>
